@@ -19,11 +19,9 @@ const UserName: React.FC<iUser> = ({ myID }) => {
     return (
         <div>
             <div
-                className="uppercase text-[12px]"
+                className="uppercase text-[15px]"
             >{user?.name}</div>
-            <div
-                className="capitalize text-[7px]"
-            >{user?.email}</div>
+            
         </div>
     )
 }
